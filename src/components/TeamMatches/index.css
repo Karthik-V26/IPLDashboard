@@ -1,0 +1,66 @@
+.team-matches-bg {
+  min-height: 100vh;
+  width: 100%;
+  padding: 15px;
+}
+.loading-contain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #0f172a);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #0f172a);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #0f172a);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #0f172a);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+}
+.team-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+}
+.latest-matches-description {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.matches-cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+@media all and (min-width: 768px) {
+  .team-matches-bg {
+    min-height: 100vh;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .team-image {
+    width: 60%;
+    height: 250px;
+    border-radius: 15px;
+    align-self: center;
+  }
+}
